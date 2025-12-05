@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\osoki\Desktop\laba8\laba8\Source.cpp(123,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  laba8.vcxproj -> C:\Users\osoki\Desktop\laba8\x64\Debug\laba8.exe
