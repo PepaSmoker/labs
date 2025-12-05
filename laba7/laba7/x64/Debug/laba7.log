@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\osoki\Desktop\laba7\laba7\Source.cpp(47,18): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  laba7.vcxproj -> C:\Users\osoki\Desktop\laba7\x64\Debug\laba7.exe
