@@ -1,0 +1,10 @@
+﻿  func.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\func.cpp(209,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\func.cpp(219,31): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\func.cpp(177,6): warning C4101: y: неиспользованная локальная переменная
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\func.cpp(176,6): warning C4101: x: неиспользованная локальная переменная
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\func.cpp(256,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\laba2.2\main.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  laba2.2.vcxproj -> C:\Users\osoki\OneDrive\Рабочий стол\laba2.2\x64\Debug\laba2.2.exe
