@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laaba2\laaba2\Source.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Source1.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laaba2\laaba2\Source1.cpp(190,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  Создание кода...
+  laaba2.vcxproj -> C:\Users\osoki\OneDrive\Рабочий стол\laaba2\x64\Debug\laaba2.exe
