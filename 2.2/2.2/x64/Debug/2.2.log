@@ -1,8 +1,0 @@
-﻿  main.cpp
-C:\Users\student24.STUDENTS\Desktop\2.2\2.2\main.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  func.cpp
-C:\Users\student24.STUDENTS\Desktop\2.2\2.2\func.cpp(54,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\student24.STUDENTS\Desktop\2.2\2.2\func.cpp(92,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\student24.STUDENTS\Desktop\2.2\2.2\func.cpp(106,30): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
-  2.2.vcxproj -> C:\Users\student24.STUDENTS\Desktop\2.2\x64\Debug\2.2.exe
