@@ -1,0 +1,7 @@
+﻿  Lootbox.cpp
+  main.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.3\laba2.3\main.cpp(7,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  func.cpp
+C:\Users\osoki\OneDrive\Рабочий стол\laba2.3\laba2.3\func.cpp(185,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  laba2.3.vcxproj -> C:\Users\osoki\OneDrive\Рабочий стол\laba2.3\x64\Debug\laba2.3.exe
