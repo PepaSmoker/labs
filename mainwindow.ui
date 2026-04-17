@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Пропуска</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <item>
+     <widget class="QFrame" name="frameOuter">
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+
+      <layout class="QVBoxLayout" name="frameLayout">
+
+       <item>
+        <widget class="QFrame" name="frameInner">
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+
+         <layout class="QVBoxLayout" name="innerLayout">
+
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="columnCount">
+             <number>2</number>
+            </property>
+
+            <column>
+             <property name="text">
+              <string>ФИО</string>
+             </property>
+            </column>
+
+            <column>
+             <property name="text">
+              <string>Дата рождения</string>
+             </property>
+            </column>
+
+           </widget>
+          </item>
+
+         </layout>
+        </widget>
+       </item>
+
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QPushButton" name="loadBtn">
+         <property name="text">
+          <string>Загрузить</string>
+         </property>
+         <property name="minimumWidth">
+          <number>120</number>
+         </property>
+        </widget>
+       </item>
+
+      </layout>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
