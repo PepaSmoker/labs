@@ -2,14 +2,20 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QVector>
-#include "R.h"
+#include <QList>
+#include "food.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+class QTableWidget;
+class QLineEdit;
+class QTextEdit;
+class QComboBox;
+class QPushButton;
+class QTabWidget;
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
     Q_OBJECT
 
 public:
@@ -17,14 +23,38 @@ public:
     ~MainWindow();
 
 private slots:
-    void loadFile();
-    void onDoubleClick(int row, int col);
+    void onCreateFood();
+    void onImportFromTxt();
+    void onSaveToJson();
+
+    void onLoadJson();
+    void onSaveBrokenToFile();
+    void onRefreshTables();
 
 private:
-    Ui::MainWindow *ui;
-    QVector<R*> people;
+    QString escapeJson(const QString &s);
+    void setupTabs();
+    void loadFoodsFromJson(const QString &filename);
+    void saveFoodsToJson(const QString &filename, const QList<Food> &foods);
+    void displayTables(const QList<Food> &valid, const QList<Food> &broken);
+    QList<Food> parseTxtFile(const QString &filePath, QStringList &errors);
 
-    void fillTable();
+    QWidget *createTab1();
+    QLineEdit *leName, *leDescription, *leHunger, *lePrice, *leWeight;
+    QTableWidget *tablePreview;
+    QPushButton *btnCreate, *btnImportTxt;
+
+    QWidget *createTab2();
+    QTableWidget *tableValid;
+    QTableWidget *tableBroken;
+    QPushButton *btnLoad, *btnSaveBroken, *btnRefresh;
+
+    QList<Food> m_allFoods;
+    QList<Food> m_validFoods;
+    QList<Food> m_brokenFoods;
+
+    const QString dataFileName = "foods.json";
+    const QString brokenFileName = "broken_foods.json";
 };
 
-#endif
+#endif // MAINWINDOW_H
