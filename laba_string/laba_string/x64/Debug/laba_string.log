@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\osoki\Desktop\laba_string\laba_string\Source.cpp(280,13): warning C4244: инициализация: преобразование "std::streamsize" в "int", возможна потеря данных
-  laba_string.vcxproj -> C:\Users\osoki\Desktop\laba_string\x64\Debug\laba_string.exe
