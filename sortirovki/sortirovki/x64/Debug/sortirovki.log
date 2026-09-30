@@ -1,0 +1,6 @@
+﻿  sortirovki.cpp
+C:\Users\osoki\Desktop\sortirovki\sortirovki\sortirovki.cpp(6,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\osoki\Desktop\sortirovki\sortirovki\sortirovki.cpp(23,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\osoki\Desktop\sortirovki\sortirovki\sortirovki.cpp(36,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\osoki\Desktop\sortirovki\sortirovki\sortirovki.cpp(48,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  sortirovki.vcxproj -> C:\Users\osoki\Desktop\sortirovki\x64\Debug\sortirovki.exe
